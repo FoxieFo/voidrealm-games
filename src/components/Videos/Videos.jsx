@@ -11,7 +11,7 @@ export default function Videos() {
       <div className={s.videosContainer}>
         <iframe
           className={s.videosContainerVideo}
-          src="https://www.youtube.com/embed/ae97QwsHiwQ?start=2"
+          src="https://www.youtube.com/embed/tvTsUs0n9zw?si=Q6Sd9tHMU6jwle1V"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -23,7 +23,7 @@ export default function Videos() {
         </p>
         <iframe
           className={s.videosContainerVideo}
-          src="https://www.youtube.com/embed/uXc2JAwrFYo"
+          src="https://www.youtube.com/embed/r6WqezmOMc4?si=CI9wa_01Vpq5EYNQ"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen

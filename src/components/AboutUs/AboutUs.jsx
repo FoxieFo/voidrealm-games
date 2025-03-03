@@ -8,8 +8,7 @@ import tiktok from './../../assets/img/icons/tiktok.svg';
 import youtube from './../../assets/img/icons/youtube.svg';
 
 //dummy data
-import aboutImg from './../../assets/img/dummy/aboutus.png';
-import team from './../../assets/img/dummy/team.jpg';
+import team from './../../assets/img/dummy/team1.jpg';
 
 export default function AboutUs() {
   return (
@@ -37,7 +36,7 @@ export default function AboutUs() {
         <ul className={s.aboutusClickableLinksList}>
           <li className={s.aboutusClickableLinksListItem}>
             <a
-              href="https://www.instagram.com/ajb_studio"
+              href="https://www.instagram.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -46,7 +45,7 @@ export default function AboutUs() {
           </li>
           <li className={s.aboutusClickableLinksListItem}>
             <a
-              href="https://www.tiktok.com/@ajbgamesstudio"
+              href="https://www.tiktok.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -55,7 +54,7 @@ export default function AboutUs() {
           </li>
           <li className={s.aboutusClickableLinksListItem}>
             <a
-              href="https://www.youtube.com/@ajbgamesstudio"
+              href="https://www.youtube.com"
               target="_blank"
               rel="noopener noreferrer"
             >

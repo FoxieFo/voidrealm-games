@@ -31,24 +31,22 @@ export default function NewGame() {
             <GameButton
               text="Steam"
               className={s.newgameSectionImagesButtonsItem}
-              scheme='schemeTwo'
+              scheme="schemeTwo"
             />
           </div>
         </div>
         <div className={s.newgameSectionInfo}>
           <p className={s.newgameSectionInfoText}>
-            After months of silence, Alex returns to his grandmother’s house-but
-            something is wrong. An eerie stillness, blood-streaked walls, and a
-            lurking presence in the shadows.
+            After venturing into the deep forest, you sense something is wrong.
+            An unnatural silence, twisted shadows among the trees, and the
+            feeling of being watched. One night changes everything. Your camp is
+            abandoned, your companions missing, and a monstrous presence lurks
+            just beyond sight. The deeper you go, the more the forest warps into
+            something inhuman.
             <br />
             <br />
-            One night changes everything. His grandmother is gone, and something
-            sinister has taken her place. The deeper Alex digs, the darker the
-            truth becomes.
-            <br />
-            <br />
-            UNCURSED delivers intense horror, a chilling atmosphere, and
-            spine-tingling revelations. Dare to step inside?
+            This game delivers relentless terror, a haunting atmosphere, and a
+            mystery that begs to be uncovered. Dare to face the beast?
           </p>
           <div className={s.newgameSectionInfoButtons}>
             <GameButton
@@ -58,7 +56,7 @@ export default function NewGame() {
             <GameButton
               text="Steam"
               className={s.newgameSectionInfoButtonsItem}
-              scheme='schemeTwo'
+              scheme="schemeTwo"
             />
           </div>
         </div>

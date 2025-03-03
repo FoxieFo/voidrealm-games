@@ -7,50 +7,50 @@ import 'slick-carousel/slick/slick-theme.css';
 import Button from '../ui/Button/Button';
 import SliderItem from '../ui/SliderItem/SliderItem';
 
-import first from './../../assets/img/pictures/slider/1-uncursed.png';
-import second from './../../assets/img/pictures/slider/2-marthasdolls.png';
-import third from './../../assets/img/pictures/slider/3-bookie.png';
-import fourth from './../../assets/img/pictures/slider/4-escape.png';
-import fifth from './../../assets/img/pictures/slider/5-regretting.png';
-import sixth from './../../assets/img/pictures/slider/6-tmc1.png';
-import seventh from './../../assets/img/pictures/slider/7-tmc2.png';
-import eighth from './../../assets/img/pictures/slider/8-error.png';
+import first from './../../assets/img/pictures/slider/1.png';
+import second from './../../assets/img/pictures/slider/2.png';
+import third from './../../assets/img/pictures/slider/3.png';
+import fourth from './../../assets/img/pictures/slider/4.png';
+import fifth from './../../assets/img/pictures/slider/5.png';
+import sixth from './../../assets/img/pictures/slider/6.png';
+import seventh from './../../assets/img/pictures/slider/7.png';
+import eighth from './../../assets/img/pictures/slider/8.png';
 
 export default function GameSlider() {
   const games = [
     {
       id: 1,
-      title: 'Uncursed',
+      title: 'Dreadbound',
       img: first,
     },
     {
       id: 2,
-      title: "Martha's Dolls",
+      title: "The Hollow Veil",
       img: second,
     },
     {
       id: 3,
-      title: 'Bookie',
+      title: 'Malevolence',
       img: third,
     },
     {
       id: 4,
-      title: 'Escape',
+      title: 'Nocturne',
       img: fourth,
     },
     {
       id: 5,
-      title: 'Regretting',
+      title: 'Forsaken Echoes',
       img: fifth,
     },
     {
       id: 6,
-      title: 'The Moroccan Castle II',
+      title: 'The Castle',
       img: sixth,
     },
     {
       id: 7,
-      title: 'The Moroccan Castle',
+      title: 'Phantom Lullaby',
       img: seventh,
     },
     {

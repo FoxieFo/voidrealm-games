@@ -1,4 +1,4 @@
-.UncursedHome {
+.DeadboundHome {
   color: white;
   padding: 0 20px;
   margin: 0 auto;
@@ -14,7 +14,7 @@
     }
   }
 
-  &Uncursed {
+  &Deadbound {
     margin-top: 10px;
     font-size: 64px;
     animation: fadeInUp 1.5s ease-out forwards;
@@ -63,6 +63,8 @@
     gap: 21px;
     margin-top: 100px;
     padding-bottom: 119px;
+    max-width: 639px;
+    width: 100%;
 
     img {
       width: 100%;

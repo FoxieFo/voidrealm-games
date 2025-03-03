@@ -37,13 +37,13 @@ export default function Footer() {
             <h1 className={s.blockHeading}>Join us</h1>
             <ul className={s.blockList}>
               <li className={s.blockListItem}>New Game</li>
-              <li className={s.blockListItem}>Games</li>
-              <li className={s.blockListItem}>Games</li>
+              <li className={s.blockListItem}>The Hollow Veil</li>
+              <li className={s.blockListItem}>Malevolence</li>
             </ul>
           </div>
           <a
             className={s.instagram}
-            href="https://www.instagram.com/ajb_studio"
+            href="https://www.instagram.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -51,7 +51,7 @@ export default function Footer() {
           </a>
           <a
             className={s.tiktok}
-            href="https://www.tiktok.com/@ajbgamesstudio"
+            href="https://www.tiktok.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -59,7 +59,7 @@ export default function Footer() {
           </a>
           <a
             className={s.youtube}
-            href="https://www.youtube.com/@ajbgamesstudio"
+            href="https://www.youtube.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -67,7 +67,7 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <p className={s.footerRights}>© AJB GAMES STUDIO. All right resarved</p>
+      <p className={s.footerRights}>© Voidrealm Games. All right reserved</p>
     </footer>
   );
 }
