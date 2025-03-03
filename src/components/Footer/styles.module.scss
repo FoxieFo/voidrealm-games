@@ -1,0 +1,149 @@
+.footer {
+  background-color: black;
+  color: white;
+  padding-top: 97px;
+  @media (max-width: 679px) {
+    padding-top: 50px;
+  }
+  &Rights {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    @media (max-width: 379px) {
+      font-size: 12px;
+      line-height: 14.52px;
+      letter-spacing: -5%;
+    }
+  }
+  &Wrapper {
+    margin: 0 auto;
+    max-width: 1060px;
+    padding: 0 20px;
+    display: flex;
+    gap: 17px;
+    @media (max-width: 679px) {
+      flex-direction: column;
+    }
+  }
+  &Try {
+    width: 50%;
+    background-color: var(--darkRed);
+    padding: 30px 25px;
+    @media (max-width: 679px) {
+      width: 100%;
+    }
+    &Heading {
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 45.6px;
+      letter-spacing: 0%;
+      @media (max-width: 679px) {
+        font-size: 32px;
+        line-height: 30.4px;
+        letter-spacing: 0%;
+      }
+    }
+
+    &Links {
+      display: flex;
+      gap: 64px;
+      margin-top: 169px;
+      a {
+        color: white;
+      }
+      &List {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+      }
+    }
+  }
+
+  &Join {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      'block block block'
+      'block block block'
+      'instagram tiktok youtube';
+
+    @media (max-width: 679px) {
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: auto auto;
+      grid-template-areas:
+        'block instagram'
+        'block tiktok'
+        'block youtube';
+    }
+
+    .block {
+      padding: 30px 25px;
+      grid-area: block;
+      background-color: var(--darkRed);
+      &Heading {
+        font-size: 48px;
+        line-height: 45.6px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        @media (max-width: 679px) {
+          font-size: 32px;
+          line-height: 30.4px;
+          letter-spacing: 0%;
+        }
+      }
+      &List {
+        margin-top: 112px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+      }
+    }
+
+    .instagram {
+      background-color: var(--darkRed);
+      grid-area: instagram;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      img {
+        @media (max-width: 480px) {
+          width: 30px;
+        }
+      }
+    }
+
+    .tiktok {
+      background-color: var(--darkRed);
+      grid-area: tiktok;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      img {
+        @media (max-width: 480px) {
+          width: 30px;
+        }
+      }
+    }
+
+    .youtube {
+      background-color: var(--darkRed);
+      grid-area: youtube;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      img {
+        @media (max-width: 480px) {
+          width: 30px;
+        }
+      }
+    }
+  }
+}

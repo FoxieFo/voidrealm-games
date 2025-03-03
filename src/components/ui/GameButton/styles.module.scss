@@ -1,0 +1,55 @@
+.customGameButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 7px 20px;
+  width: 100%;
+  color: white;
+  transition:
+    opacity 0.5s ease,
+    background-color 0.5s ease,
+    box-shadow 0.3s ease;
+  cursor: pointer;
+  @media (max-width: 480px) {
+    font-size: 14px;
+    padding: 7px 10px;
+  }
+  @media (max-width: 420px) {
+    font-size: 12px;
+  }
+
+  &Icon{
+    height: 42px;
+    @media (max-width: 480px) {
+      width: 30px;
+    }
+    @media (max-width: 420px) {
+      font-size: 12px;
+      width: 25px;
+    }
+    @media (max-width: 360px) {
+      width: 20px;
+    }
+  }
+
+  &.schemeOne {
+    background-color: var(--darkRed);
+    border: none;
+    &:hover {
+      box-shadow: 0px 24px 23px 0px #0000004D inset;
+    }
+  }
+
+  &.schemeTwo {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    &:hover {
+      background-color: #ffffff33;
+    }
+  }
+  &.schemeThree {
+    background-color: #66000033;
+    border: none;
+  }
+}

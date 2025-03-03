@@ -1,0 +1,40 @@
+.statsitem {
+  border: 1px solid #85858580;
+  padding: 41px 20px 41px 36px;
+  width: 100%;
+  @media (max-width: 1145px) {
+    padding: 39px 23px;
+  }
+  @media (max-width: 430px) {
+    padding: 28px 18px;
+  }
+  &Number {
+    color: var(--darkRed);
+    font-size: 64px;
+    line-height: 77.45px;
+    padding-bottom: 30px;
+    @media (max-width: 1145px) {
+      font-size: 56px;
+      line-height: 67.77px;
+    }
+    @media (max-width: 960px) {
+      font-size: 56px;
+      line-height: 67.77px;
+    }
+    @media (max-width: 430px) {
+      font-size: 32px;
+      line-height: 38.73px;
+      letter-spacing: 0%;
+    }
+  }
+  &Text {
+    font-size: 16px;
+    line-height: 19.36px;
+    letter-spacing: 0%;
+    @media (max-width: 430px) {
+      font-size: 12px;
+      line-height: 14.52px;
+      letter-spacing: 0%;
+    }
+  }
+}

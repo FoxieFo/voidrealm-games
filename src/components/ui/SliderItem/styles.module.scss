@@ -1,0 +1,27 @@
+.slideritem {
+  position: relative;
+  &Img {
+    max-width: 410px;
+    width: 100%;
+    height: auto;
+    @media (max-width: 730px) {
+      width: 220px;
+    }
+  }
+  &Button {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    width: auto;
+    @media (max-width: 730px) {
+      font-size: 14px;
+    }
+    @media (max-width: 360px) {
+      bottom: 16px;
+      left: 16px;
+      right: 16px;
+      height: 30px;
+    }
+  }
+}

@@ -1,0 +1,96 @@
+.burgerCheckbox {
+  position: absolute;
+  visibility: hidden;
+}
+.burger {
+  position: relative;
+  z-index: 100;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: none;
+  background: transparent;
+  width: 22px;
+  height: 16px;
+}
+.burger::before,
+.burger::after {
+  content: '';
+  left: 0;
+  top: 7.5px;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--darkRed);
+
+}
+.burger::before {
+  top: 2px;
+  box-shadow: 0 11px 0 var(--darkRed);
+  transition:
+    box-shadow 0.3s 0.15s,
+    top 0.3s 0.15s,
+    transform 0.3s;
+}
+.burger::after {
+  bottom: 0;
+  transition:
+    bottom 0.3s 0.15s,
+    transform 0.3s;
+}
+.burgerCheckbox:checked + .burger::before {
+  top: 7px;
+  transform: rotate(45deg);
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0);
+  transition:
+    box-shadow 0.15s,
+    top 0.3s,
+    transform 0.3s 0.15s;
+}
+.burgerCheckbox:checked + .burger::after {
+  bottom: 7px;
+  transform: rotate(-45deg);
+  transition:
+    bottom 0.3s,
+    transform 0.3s 0.15s;
+}
+.menuList {
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 110px 0 0 0;
+  background: black;
+  list-style-type: none;
+  transform: translateY(-100%);
+  transition: 0.3s;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}
+.menuItem {
+  display: block;
+  padding: 8px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+.menuItem:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.burgerCheckbox:checked ~ .menuList {
+  transform: translateX(0);
+}
+
+//icons
+
+.burgerIcons{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,76 @@
+.slider {
+  margin: 0 auto;
+  max-width: 1250px;
+  padding: 150px 20px 0 20px;
+  @media (max-width: 730px) {
+    padding-top: 70px;
+  }
+  &Section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &Heading {
+      font-weight: 400;
+      font-size: clamp(1.75rem, 1.144rem + 3.03vw, 3rem);
+      line-height: 54.43px;
+      letter-spacing: 0%;
+    }
+    &Buttons {
+      display: flex;
+      gap: 50px;
+      white-space: nowrap;
+      @media (max-width: 730px) {
+        gap: 20px;
+      }
+      @media (max-width: 589px) {
+        font-size: 12px;
+        gap: 10px;
+      }
+    }
+  }
+  &Slider {
+    margin-top: 50px;
+  }
+}
+
+//slick styles
+
+:global {
+  .slick-slide {
+    padding: 0 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slick-slide:hover {
+    transform: scale(1.02);
+  }
+  
+  .slick-list {
+    padding: 0 -5px;
+  }
+
+  // dots
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px !important;
+    padding: 0 !important;
+  }
+
+  .slick-dots li button:before {
+    content: '' !important;
+    width: 8px !important;
+    height: 8px !important;
+    background-color: red;
+    border-radius: 0;
+    transition: all 0.3s;
+    margin-top: 50px;
+  }
+
+  .slick-dots li.slick-active button:before {
+    background-color: darkred;
+  }
+  .slick-dots li + li {
+    margin-left: -5px;
+  }
+}

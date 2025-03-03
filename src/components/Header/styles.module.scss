@@ -1,0 +1,28 @@
+.wrapper {
+  margin: 0 20px;
+}
+
+.header {
+  margin: 0 auto;
+  max-width: 1250px;
+  border-bottom: 1px solid var(--darkRed);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0 10px;
+
+  &List {
+    display: flex;
+    gap: 20px;
+    @media (max-width: 799px) {
+      display: none;
+    }
+  }
+
+  &Burger{
+    display: none;
+    @media (max-width: 799px) {
+      display: block;
+    }
+  }
+}
