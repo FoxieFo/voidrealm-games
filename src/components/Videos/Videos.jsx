@@ -10,14 +10,19 @@ export default function Videos() {
         Ready to test your nerves?
       </h1>
       <div className={s.videosContainer}>
-        {/* Using LiteYouTubeEmbed instead of iframe */}
-        <LiteYouTubeEmbed id="tvTsUs0n9zw" title="YouTube video player" />
+        <LiteYouTubeEmbed
+          id="tvTsUs0n9zw"
+          title="YouTube video player"
+        />
         <p className={s.videosDescriptionParagraphMobile}>
           Step into the darkness and feel the fear unfold. Watch our game
           trailers and experience the horror coming to life… Click and watch-if
           you dare.
         </p>
-        <LiteYouTubeEmbed id="r6WqezmOMc4" title="YouTube video player" />
+        <LiteYouTubeEmbed
+          id="r6WqezmOMc4"
+          title="YouTube video player"
+        />
       </div>
       <div className={s.videosDescription}>
         <p className={s.videosDescriptionParagraph}>
