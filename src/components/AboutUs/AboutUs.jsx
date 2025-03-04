@@ -8,7 +8,7 @@ import tiktok from './../../assets/img/icons/tiktok.svg';
 import youtube from './../../assets/img/icons/youtube.svg';
 
 //dummy data
-import team from './../../assets/img/dummy/team1.jpg';
+import team from './../../assets/img/dummy/team1.webp';
 
 export default function AboutUs() {
   return (

@@ -1,9 +1,7 @@
 import s from './styles.module.scss';
 
-import room from './../../assets/img/pictures/newgame-room.png';
-import table from './../../assets/img/pictures/newgame-table.png';
-import roomLarge from './../../assets/img/pictures/newgame-room-large.png';
-import tableLarge from './../../assets/img/pictures/newgame-table-large.png';
+import roomLarge from './../../assets/img/pictures/newgame-room-large.webp';
+import tableLarge from './../../assets/img/pictures/newgame-table-large.webp';
 
 import GameButton from './../ui/GameButton/GameButton';
 

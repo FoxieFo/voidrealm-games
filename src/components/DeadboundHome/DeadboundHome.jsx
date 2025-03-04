@@ -2,9 +2,9 @@ import s from './styles.module.scss';
 import React from 'react';
 import GameButtton from '../ui/GameButton/GameButton';
 
-import picOne from './../../assets/img/pictures/intro-one.jpg';
-import picTwo from './../../assets/img/pictures/intro-two.jpg';
-import picThree from './../../assets/img/pictures/intro-three.jpg';
+import picOne from './../../assets/img/pictures/intro-one.webp';
+import picTwo from './../../assets/img/pictures/intro-two.webp';
+import picThree from './../../assets/img/pictures/intro-three.webp';
 
 export default function DeadboundHome() {
   return (

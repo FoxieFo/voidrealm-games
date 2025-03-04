@@ -7,14 +7,14 @@ import 'slick-carousel/slick/slick-theme.css';
 import Button from '../ui/Button/Button';
 import SliderItem from '../ui/SliderItem/SliderItem';
 
-import first from './../../assets/img/pictures/slider/1.png';
-import second from './../../assets/img/pictures/slider/2.png';
-import third from './../../assets/img/pictures/slider/3.png';
-import fourth from './../../assets/img/pictures/slider/4.png';
-import fifth from './../../assets/img/pictures/slider/5.png';
-import sixth from './../../assets/img/pictures/slider/6.png';
-import seventh from './../../assets/img/pictures/slider/7.png';
-import eighth from './../../assets/img/pictures/slider/8.png';
+import first from './../../assets/img/pictures/slider/1.webp';
+import second from './../../assets/img/pictures/slider/2.webp';
+import third from './../../assets/img/pictures/slider/3.webp';
+import fourth from './../../assets/img/pictures/slider/4.webp';
+import fifth from './../../assets/img/pictures/slider/5.webp';
+import sixth from './../../assets/img/pictures/slider/6.webp';
+import seventh from './../../assets/img/pictures/slider/7.webp';
+import eighth from './../../assets/img/pictures/slider/8.webp';
 
 export default function GameSlider() {
   const games = [
