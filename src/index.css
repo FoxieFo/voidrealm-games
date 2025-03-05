@@ -49,6 +49,7 @@ aside {
 
 html,
 body {
+  background-color: black;
   scroll-behavior: smooth;
   height: 100%;
   width: 100%;
