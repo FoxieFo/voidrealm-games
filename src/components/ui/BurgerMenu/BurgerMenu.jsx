@@ -24,7 +24,7 @@ export default function BurgerMenu({ links }) {
         <ul className={s.burgerIcons}>
           <li className={s.burgerIconsItem}>
             <a
-              href="https://www.instagram.com/ajb_studio"
+              href="https://www.instagram.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -33,7 +33,7 @@ export default function BurgerMenu({ links }) {
           </li>
           <li className={s.burgerIconsItem}>
             <a
-              href="https://www.tiktok.com/@ajbgamesstudio"
+              href="https://www.tiktok.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -42,7 +42,7 @@ export default function BurgerMenu({ links }) {
           </li>
           <li className={s.burgerIconsItem}>
             <a
-              href="https://www.youtube.com/@ajbgamesstudio"
+              href="https://www.youtube.com"
               target="_blank"
               rel="noopener noreferrer"
             >
