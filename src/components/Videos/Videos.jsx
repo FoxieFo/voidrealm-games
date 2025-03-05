@@ -10,10 +10,6 @@ export default function Videos() {
         Ready to test your nerves?
       </h1>
       <div className={s.videosContainer}>
-        <LiteYouTubeEmbed
-          id="tvTsUs0n9zw"
-          title="YouTube video player"
-        />
         <p className={s.videosDescriptionParagraphMobile}>
           Step into the darkness and feel the fear unfold. Watch our game
           trailers and experience the horror coming to life… Click and watch-if
@@ -22,6 +18,7 @@ export default function Videos() {
         <LiteYouTubeEmbed
           id="r6WqezmOMc4"
           title="YouTube video player"
+          poster="maxresdefault"
         />
       </div>
       <div className={s.videosDescription}>
@@ -34,7 +31,7 @@ export default function Videos() {
           className={s.videosDescriptionButton}
           text={'Watch more'}
           scheme="schemeTwo"
-          link="https://www.youtube.com/channel/UClETMGdn-gOyL-iQtpqD0sQ"
+          link="https://www.youtube.com"
         />
       </div>
     </section>
