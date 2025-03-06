@@ -13,7 +13,7 @@ Voidrealm Games is a pet project where I contributed as a frontend developer, br
 - **Vite**
 
 ## Designer
-The UI/UX design was created by Ellie (tg: @alena_xarchenko). My role was to translate the vision into code, ensuring accuracy and responsiveness.
+The design was created by Ellie (tg: @alena_xarchenko). My role was to translate the vision into code, ensuring accuracy and responsiveness.
 
 ## Setup & Installation
 1. Clone the repository:
